@@ -2,9 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-
-import 'salesData.dart';
+import 'line_model_class.dart';
 
 class LineChartWidget extends StatelessWidget {
   LineChartWidget({required this.graphPoints});
